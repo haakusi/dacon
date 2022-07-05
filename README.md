@@ -5,7 +5,7 @@
 
 <br>
 <details markdown="1">
-<summary>데이터 수집</summary> - [session1](./DACrew/dacrew-session1.md)
+<summary>데이터 수집</summary> - [session1](../DACrew/dacrew-session1.md)
 
     주가 데이터 수집 (pykrx, FinanceDataReader, yfinance)
     거시경제 데이터 수집 (Ecos API)
