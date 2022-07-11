@@ -20,7 +20,8 @@ Pykrx는 (NAVER·KRX) 에서 주가정보를 스크래핑 합니다. <br>
 대표적으로 사용하는 함수 세가지를 살펴보겠습니다. <br>
 - get_index_ticker_list(index) : 모든 지수(index)의 티커 조회
 - get_market_trading_value_by_date(fromdate, todate, ticker) : 투자자별 거래실적 일별추이
-- stock.get_index_ohlcv(fromdate, todate, ticker) : 특정 종목의 지정된 기간 OHLCV 조회 (...거래대금, 지수명, 코스피외국주포함) <br>
+- stock.get_index_ohlcv(fromdate, todate, ticker) : 특정 종목의 지정된 기간 OHLCV 조회 (...거래대금, 지수명, 코스피외국주포함)
+<br>
 
 
     ! pip install pykrx
