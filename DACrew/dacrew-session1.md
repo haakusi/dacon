@@ -66,8 +66,42 @@ FinanceDataReader는 (위키피디아·FRED·Investing·krx·nasdaq) 에서 주�
     
 <br>
 
+### DataReader(symbol, start, end, exchange, data_source)
+: read price data from various exchanges or data source. <br>
 
+    APPLE = fdr.DataReader('AAPL','2022')
+    APPLE.head(5)
+    KOSPI_INDEX = fdr.DataReader('KS11', '2020-01-01')
+    KOSPI_INDEX.head(5)
 
+<br><br>
+
+### StockListing(market)
+: read stock list of stock exchanges. <br>
+
+market = 'KRX'-KRX 종목 전체, 'KOSPI'-KOSPI 종목, 'KOSDAQ'-KOSDAQ 종목, 'KONEX'-KONEX 종목, 'NASDAQ'-나스닥 종목, 'NYSE'-뉴욕증권거래소 종목, 'SP500'-S&P500 종목 <br>
+
+    stocks = fdr.StockListing('NASDAQ')
+    stocks.head(5)
+    
+    # 상장폐지 종목 전체 리스트
+    krx_delisting = fdr.StockListing('KRX-DELISTING')
+    print(krx_delisting.head())
+    
+    # 관리종목 리스트
+    krx_adm = fdr.StockListing('KRX-ADMINISTRATIVE') # 관리종목
+    print(krx_adm.head())
+
+<br>
+
+    from matplotlib import pyplot as plt
+    m2 = fdr.DataReader('M2', data_source='fred') #  M2통화량
+    nq = fdr.DataReader('NASDAQCOM', data_source='fred') # NASDAQCOM 나스닥종합지수
+    hou_nas = fdr.DataReader(['HSN1F', 'NASDAQCOM'], data_source='fred') # HSN1F 주택판매지수, NASDAQCOM 나스닥종합지수
+    nq.plot(figsize=(10,5))
+    plt.show()
+
+<br><br>
 
 ## 1-3. yfinance
 
