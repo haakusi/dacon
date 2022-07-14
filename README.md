@@ -2,7 +2,7 @@
 
 ### DACrew Activity
 : 22.07.06 ~ 22.08.30
-- [session1 - 데이터 수집](DACrew/dacrew-session1.md)
+- [session1 - 데이터 수집](DACrew/[투데이_1편]_금융_데이터수집💥.ipynb)
 
 <br>
 <details markdown="1">
