@@ -3,7 +3,7 @@
 ### DACrew Activity
 : 22.07.06 ~ 22.08.30
 - [session0 - 금융 데이터 분석에 앞서](DACrew/[투데이_0편]_금융_데이터_분석에_앞서💥.ipynb)
-- [session1 - 금융 데이터 수집](DACrew/[투데이_1편]_금융_데이터수집💥.ipynb)
+- [session1 - 금융 데이터 수집](DACrew/[투데이_1편]_금융_데이터수집.ipynb)
 
 <br>
 <details markdown="1">
@@ -12,7 +12,7 @@
     - 주가 데이터 수집 (pykrx, FinanceDataReader, yfinance)
     - 거시경제 데이터 수집 (Ecos API)
     - 기업 공시데이터 수집 (Dart API)
-    - 금융데이터 핸들링 (shift, rolling, resample, pct_change)
+    - 금융데이터 핸들링 (shift, rolling, resample)
     - 백테스팅 API 활용법 (Backtrader&Backtesting)
 </details>
 
