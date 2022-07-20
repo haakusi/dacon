@@ -4,7 +4,7 @@
 : 22.07.06 ~ 22.08.30
 - [session0 - 금융 데이터 분석에 앞서](DACrew/[투데이_0편]_금융_데이터_분석에_앞서💥.ipynb)
 - [session1 - 금융 데이터 수집](DACrew/[투데이_1편]_금융_데이터수집.ipynb)
-- [session2 - 금융 데이터 수집](DACrew/[투데이_2편]_거시경제.ipynb)
+- [session2 - 거시경제](DACrew/[투데이_2편]_거시경제.ipynb)
 
 <br>
 <details markdown="1">
